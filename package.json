@@ -1,0 +1,26 @@
+{
+  "name": "car-shop-crud",
+  "version": "1.0.0",
+  "description": "Teste Prático",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-leao/car-shop-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-leao/car-shop-crud/issues"
+  },
+  "homepage": "https://github.com/Igor-leao/car-shop-crud#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
