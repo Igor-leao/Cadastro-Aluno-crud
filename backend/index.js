@@ -4,7 +4,7 @@ const cors = require('cors');
 const bodyParser = require("body-parser");
 
 const app = express();
-
+// informaçẽos do banco de dados
 const db = mysql.createPool({
   host: 'localhost',
   user: 'root',
