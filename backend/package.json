@@ -1,0 +1,32 @@
+{
+  "name": "car-shop-crud",
+  "version": "1.0.0",
+  "description": "Teste Prático",
+  "main": "index.js",
+  "scripts": {
+   
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-leao/car-shop-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-leao/car-shop-crud/issues"
+  },
+  "homepage": "https://github.com/Igor-leao/car-shop-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.7.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
