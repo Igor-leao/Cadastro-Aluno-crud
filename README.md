@@ -51,3 +51,5 @@ Nesse projeto, foi utilizado um back-end usando `ORM` com o pacote `sequelize` d
 * Entre na pasta `backend` e no terminal execute `npm run start` Para executar o Back-End
 
 * Entre na pasta `frontend` e no terminal execute `npm start` Para executar o react native, como a foto a seguir
+
+![Front-end renderizado](./imgCrud.png)
