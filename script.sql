@@ -1,16 +1,12 @@
-DROP DATABASE IF EXISTS Cars;
-CREATE DATABASE IF NOT EXISTS Cars;
+DROP DATABASE IF EXISTS Cadastro_Aluno;
+CREATE DATABASE IF NOT EXISTS Cadastro_Aluno;
 
-USE Cars;
+USE Cadastro_Aluno;
 
-CREATE TABLE IF NOT EXISTS carsInfo (
-	id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    placa VARCHAR(20) NOT NULL,
-    cor VARCHAR(20) NOT NULL,
-    chassi VARCHAR(20) NOT NULL,
-    PRIMARY KEY (id),
+CREATE TABLE IF NOT EXISTS aluno_info (
+	id_matricula INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    semestre INT NOT NULL,
+    idade INT NOT NULL,
+    PRIMARY KEY (id_matricula)
 );
-
-INSERT INTO users (id, name, placa, cor, chassi) VALUES
-    ('1', 'Palio', '2240abc', 'branco', '123456');

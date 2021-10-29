@@ -1,5 +1,5 @@
 
-# Bem vindo ao Cadastro de Carros CRUD!
+# Bem vindo ao Cadastro de ALunos CRUD!
 
 Este projeto através do teste prático simula um protótipo de crud, em que suas funções em Adicionar, ler, atualizar e deletar.
 ---
