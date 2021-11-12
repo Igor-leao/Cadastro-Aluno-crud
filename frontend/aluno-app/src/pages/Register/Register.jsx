@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+
 import Axios from 'axios';
 
-function App() {
+function Register() {
   const [nome, setNome] = useState("");
   const [semestre, setSemestre] = useState("");
   const [idade, setIdade] = useState("");
@@ -44,9 +44,9 @@ function App() {
     setNewSemestre("");
   };
   return (
-    <div classnome="App">
+    <div className="App">
       <h1>Cadastro do Aluno </h1>
-      <div classnome="form">
+      <div className="form">
         <label>Nome do Aluno</label>
         <input
           type="text"
@@ -72,7 +72,7 @@ function App() {
           }}
         />
 
-        <button classnome="addButton" onClick={submitReview}>Adicionar</button>
+        <button className="addButton" onClick={submitReview}>Adicionar</button>
 
 
       </div>
@@ -80,12 +80,10 @@ function App() {
         {alunoList.map((value) => {
           return (
             <div class="column">
-              <div classnome="card">
-                <h3>{value.nome}</h3>
-                <p>{value.idade}</p>
-                <p>{value.semestre}</p>
-
-
+              <div className="card">
+                <h3>Nome: {value.nome}</h3>
+                <p>Idade: {value.idade}</p>
+                <p>Semestre: {value.semestre}</p>
                 <button
                   onClick={() => {
                     deleteAluno(value.nome);
@@ -117,4 +115,4 @@ function App() {
   );
 }
 
-export default App;
+export default Register;
